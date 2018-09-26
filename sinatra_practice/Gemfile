@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+gem 'rack'
+gem 'sinatra'
+gem 'pg'
+gem 'activerecord'
+gem 'rspec'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'tux'
+gem 'shotgun'
+gem 'capybara'
+
+group :test do
+    gem “capybara”
+    gem “database_cleaner”
+    gem “rspec”
+    gem “rack-test”
+   end
