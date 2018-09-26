@@ -5,7 +5,8 @@ development:
 test:
  adapter: postgresql
  database: sinatra-practice-test
- 
+ username: name
+
 production:
  adapter: postgresql
  database: sinatra-practice-production
