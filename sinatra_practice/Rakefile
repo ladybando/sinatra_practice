@@ -2,3 +2,7 @@ require 'bundler'
 Bundler.require
 require 'sinatra/activerecord/rake'
 require 'sinatra'
+
+task :console do
+    Pry.start
+  end
