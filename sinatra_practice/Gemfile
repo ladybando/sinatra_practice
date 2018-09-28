@@ -11,6 +11,7 @@ gem 'tux'
 gem 'shotgun'
 gem 'capybara'
 gem 'database_cleaner'
+gem 'pry'
 
 group :test do
     gem 'capybara'
